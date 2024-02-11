@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;   
+}
+
+#main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;  
+    background-color: rgb(155, 184, 155);
+}
+
+#panel {
+    overflow: hidden;
+    height: 80%;
+    width: 80%;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+#ptop {
+    padding: 0px 30%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    width: 100%;
+    background-color: rgb(72, 105, 72);
+    color: #fff;
+}
+
+.elem {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.box {
+    color: rgb(2, 2, 2);
+    font-weight: 700;
+    font-size: 20px;
+    background-color: #fff;
+    padding: 5px 15px;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+
+#pbtm {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+    padding: 20px;
+    width: 100%;
+    height: calc(100% - 80px);
+}
+
+.bubble {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 40px;
+    background-color: rgb(72, 105, 72);
+    color: #fff;
+    border-radius: 50%;
+    font-weight: 500;
+}
+
+.bubble:hover {
+    background-color: rgb(50, 75, 50);
+    cursor: pointer;
+}

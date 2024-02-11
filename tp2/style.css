@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit&family=Noto+Sans+JP&family=Roboto&family=Roboto+Condensed&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: #F5F3EF;
+    position: relative;
+    width: 100%;
+}
+
+#nav{
+    position: fixed;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 7px;
+    padding: 30px 33px;
+    z-index: 1000;
+}
+
+#nav h4{
+    background-color:#1E1E21;
+    color: #fff;
+    font-size: 20px;
+    padding: 17px 22px;
+    border-radius: 50px;
+}
+
+#nav h3{
+    background-color:#1E1E21;
+    color: #fff;
+    font-size: 20px;
+    padding: 17px 27px;
+    border-radius: 50px;
+}
+
+#intro{
+    height: 73%;
+    width: 100%;
+    padding: 65px 65px;
+}
+
+#intro h1{
+    font-size: 135px;
+    color: #1E1E21;
+    line-height: 138px;
+}
+
+#line{
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    gap: 800px;
+    margin-top: 8px; 
+}
+
+#intro h4{
+    font-size: 28px;
+    color: #1E1E21;
+}
+
+#intro i{
+    font-size: 42px;
+    font-weight: 500;
+    color: #1E1E21; 
+}
+
+#img-container{
+    height: 90%;
+    width: 100%;
+    overflow: hidden;
+    margin-top: -2px;
+    position: relative;
+    z-index: 1;
+}
+
+img{
+    width: 100%;
+    position: absolute; /* Absolute positioning to control the size and position of the image */
+    /* top: -450px; Aligning the top of the image to the top of its container */
+    /* height: 220%; Increasing the height to create a zoomed-in effect from the top */
+    object-fit: cover; /* Ensuring the image covers the entire container */
+}
+
+#about-me{
+    height: 45%; 
+    width: 100%;
+    display: flex;
+    align-items:center ;
+    justify-content:space-between;
+    padding: 50px 60px;
+}
+
+#about-me h1{   
+    width: 60%;
+    font-size: 83px;
+    color: #1E1E21;
+    line-height: 83px;
+    background-color: antiquewhite;
+}
+#about-me-2{
+    width: 36%; 
+    height: 100%;
+    background-color: aquamarine;
+}
+
+#about-me-2 h4{
+    font-size: 28px;
+    color: #1E1E21;
+}

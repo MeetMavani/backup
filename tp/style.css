@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit&family=Noto+Sans+JP&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: white;
+}
+
+#nav{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 50px;
+}
+
+#nav-part1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#nav-part1 h3{
+    font-size: 13px;
+    border: 1.5px solid #000;
+    border-radius: 50px;
+    padding: 5px 14px;
+    font-weight: 600;
+}
+
+#nav-part1 i{
+    font-size: 13px;
+    border: 1.5px solid #000;
+    border-radius: 50px;
+    padding: 6px 7px;
+}
+
+#nav-part2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* #nav-part2 h2{
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    background-color: salmon;
+    margin-right: 5px;
+    position: absolute;
+    top: 39px;
+    left: 565px;
+} */
+
+#nav-part2 h1{
+    font-weight: 600;
+    font-size: 18px;
+    margin-left: 45px;
+}
+
+#nav button{
+    padding: 5px 14px;
+    border-radius: 50px;
+    border: 1.5px solid #000;
+    font-size: 13px;
+    font-weight: 600;
+    background-color: white;
+}
+
+#nav #btn2{
+    background-color: #FF4D23;
+    color: white;
+    border: none;
+    font-weight: 500;
+}
+
+#main>h1{
+    font-size: 130px;
+    font-weight: 100;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    text-align: center;
+}
+
+img{
+    height: 350px;
+    width: 280px;
+    object-fit: cover;
+    position: absolute;
+    top: 53%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    object-position: top;
+    border-radius: 20px;
+}
+
+#img1{
+    transform: translate(-50%, -50%) rotate(-30deg);
+}
+#img2{
+    transform: translate(-50%, -50%) rotate(-20deg);
+}
+#img3{
+    transform: translate(-50%, -50%) rotate(-10deg);
+}
+#img4{
+    transform: translate(-50%, -50%);
+}
+
+#dot{
+    height: 5px;
+    width: 5px;
+    background-color: #FF4D23;
+    position: absolute;
+    bottom: 8%;
+    left: 3%;
+    border-radius: 50%;
+}
+
+#btm-left{
+    position: absolute;
+    bottom: 5%;
+    left: 3%;
+    font-size: 12px;
+    font-weight: 600;
+}
